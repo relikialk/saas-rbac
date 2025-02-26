@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  pg:
+    image: bitnami/postgresql:latest
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=relikia007
+      - POSTGRES_PASSWORD=guimaraes171A
+      - POSTGRES_DB=next-saas
